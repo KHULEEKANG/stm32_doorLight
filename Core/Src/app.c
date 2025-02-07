@@ -36,7 +36,7 @@ void app() {
 		uint16_t distance = getDistance();
 		sys
 		if(distance <= 5) {
-			time = 5000;
+			time = 500;
 			valueR = 999;
 			valueG = 0;
 			valueB = 999;
